@@ -1,1 +1,1 @@
-my simple nixos + hyprland configuration1
+my simple nixos + hyprland configuration
