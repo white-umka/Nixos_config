@@ -1,0 +1,25 @@
+#nixos
+alias nixconf='sudo nano /etc/nixos/configuration.nix'
+alias rebuild='sudo nixos-rebuild switch'
+alias hyprconf='nano ~/.config/hypr/hyprland.conf'
+alias aliasconf='nano ~/.bashrc'
+alias wallpaper='nano ~/.config/hypr/hyprpaper.conf'
+alias kittyconf='nano ~/.config/kitty/kitty.conf'
+alias build='sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
+alias killdeadlockmod='pkill -9 -f -i deadlock'
+alias killme='sudo shutdown -h now'
+alias pg='ping google.com'
+alias zapret='cd /home/umka/zapret-discord-youtube-linux && ./service.sh'
+alias f='fastfetch'
+alias fetchconf='nano ~/.config/fastfetch/config.jsonc'
+alias pyenv='source venv/bin/activate'
+alias wp='python /home/umka/scripts/wallpath/main.py'
+alias volume='wpctl set-volume @DEFAULT_AUDIO_SINK@'
+alias grepos='find ~ -type d -name ".git" -exec dirname {} \; 2>/dev/null'
+alias grun='go run main.go'
+
+#wifi problem
+alias wifiproblem='sudo nix-shell -p usb-modeswitch --run "usb_modeswitch -v 0bda -p 1a2b -K"'
+
+# opencode
+export PATH=/home/umka/.opencode/bin:$PATH
